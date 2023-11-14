@@ -1,0 +1,250 @@
+.first{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: #F3F3F3;
+    color: black;
+    padding-top: 3rem;
+    display: flex;
+    
+    @media (max-width: 767px) {
+        
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    >.a{
+        width: 40%;
+        height: 70vh;
+        margin: 5rem;
+        >div{
+          @media (max-width: 767px) {
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+          }
+          >p{
+           font: 900 3rem "Roboto";
+        }
+        >Input{
+          position: relative;
+          margin-top: 3rem;
+          box-shadow: -20px -20px 50px #ffffff,20px 20px 50px #D2D2D2;
+
+        
+        }
+        }
+        
+       
+       
+    }
+    >.b{
+        width: 60%;
+        height: 70vh;
+        margin: 5rem;
+        border-radius: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        box-shadow: -20px -20px 50px #ffffff,20px 20px 50px #D2D2D2;
+        @media (max-width: 767px) {
+        width: 100%;
+        // margin: 0rem;
+          // display: flex;
+          // flex-direction: column;
+          // align-items: center;
+          
+        }
+        // box-shadow: 
+        // intset 10px 15px 10px -5px #b9b6b6,
+        // inset 10px -15px 10px -5px #b9b6b6; 
+        >Image{
+          // width: 50%; /* or any custom size */
+          // height: 50%; 
+          // object-fit: contain;
+        }
+      
+        
+    }
+}
+.second{
+  // display: flex;
+   height: 90vh;
+  .c{
+   position:relative;
+    height: 80px;
+    
+    box-shadow: -20px -20px 50px #ffffff,20px 20px 50px #D2D2D2;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font: 400 2rem "Roboto";
+  }
+//   >.stack{
+//     >.box{
+//         >.vstack{
+//             >div{
+//                  border: 3px solid black;
+//                  border-radius: 50%;
+//             }
+           
+
+//         }
+//     }
+//   }
+   
+
+}
+.third{
+  width: 100%;
+  height: 90vh;
+  
+  height: auto;
+  color: black;
+ 
+ 
+  
+  margin-top:15rem ;
+  >.obj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    >div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 1em;
+
+    }
+
+  }
+
+}
+.forth{
+  margin-top: 3rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content:center;
+  align-items: center;
+  .e{
+    display: flex;
+    gap: 4rem;
+
+  }
+}
+.fifth{
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-color: #F3F3F3;
+  color: black;
+  padding-top: 3rem;
+  display: flex;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  
+ >.f{
+  width: 40%;
+  height: 100%;
+  margin-top: 0;
+  margin: 7rem;
+  margin-top: 3rem;
+  box-shadow: -20px -20px 50px #ffffff,20px 20px 50px #D2D2D2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // justify-content: center;
+  border-radius: 1rem;
+  
+  >h2{
+    font: 500 1.6rem "Roboto";
+    letter-spacing: 2px;
+    margin-top: 6px;
+  }
+  >p{
+    letter-spacing: 3px;
+    margin: 3px;
+    font:250 1rem "Roboto" ;
+  }
+ }
+ >.g{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  justify-content: center;
+  margin-top: 5rem;
+
+ 
+ }
+ >.h{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 5rem;
+  
+  
+  >h1{
+    font: 400 3rem "Roboto";
+    margin: 1.5rem;
+  }
+  >h2{
+    font: 400 2rem "Roboto";
+    margin: 1rem;
+  }
+  >.i{
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+  }
+  
+ }
+  }
+  .sixth{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    >h1{
+      font: 800 3rem "Roboto";
+      margin-top: 4rem;
+    }
+    >h2{
+      font: 200 2rem "Roboto";
+      margin: 4rem;
+    }
+    >.j{
+      display: flex;
+      justify-content: space-between;
+      
+      >Input{
+        position: relative;
+        margin: 3rem;
+        box-shadow: -20px -20px 50px #ffffff,20px 20px 50px #D2D2D2;
+
+      
+    }
+
+
+  }
+
+  }
